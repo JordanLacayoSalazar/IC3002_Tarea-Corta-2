@@ -1,0 +1,75 @@
+.contenedor-menu {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 16px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.panel-inicio {
+    width: min(520px, 100%);
+    padding: 28px;
+    border-radius: 8px;
+    background: #22303d;
+    border: 1px solid #405466;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+}
+
+.informacion-curso {
+    margin: 0 0 8px;
+    color: #8fa2ff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.titulo-menu {
+    margin: 0;
+    font-size: 42px;
+    line-height: 1.05;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.subtitulo-menu {
+    margin: 14px 0 26px;
+    color: #cbd5df;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.control-velocidad {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.texto-control {
+    color: #edf2f7;
+    font-weight: 700;
+}
+
+.slider-velocidad {
+    width: 100%;
+}
+
+.valor-velocidad {
+    color: #3b3eff;
+}
+
+.boton-iniciar {
+    width: 100%;
+    min-height: 46px;
+    border: 0;
+    border-radius: 6px;
+    background: #3b3eff;
+    color: #0b0d0e;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Press Start 2P', sans-serif;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.boton-iniciar:hover {
+    background: #034f9b;
+}
